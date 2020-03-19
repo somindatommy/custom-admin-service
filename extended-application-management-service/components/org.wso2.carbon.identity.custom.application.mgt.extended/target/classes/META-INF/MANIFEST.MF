@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1584610966827
+Build-Jdk: 1.8.0_211
+Built-By: somindagamage
+Bundle-Description: The custom admin service component for extended appl
+ ication management
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: org.wso2.carbon.identity.custom.application.mgt.extended
+Bundle-SymbolicName: org.wso2.carbon.identity.custom.application.mgt.ext
+ ended
+Bundle-Vendor: WSO2
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.wso2.carbon.identity.custom.application.mgt.extended
+ ;version="1.0.0";uses:="org.wso2.carbon.core,org.wso2.carbon.identity.a
+ pplication.common,org.wso2.carbon.identity.custom.application.mgt.exten
+ ded.model",org.wso2.carbon.identity.custom.application.mgt.extended.int
+ ernal;version="1.0.0";uses:="org.osgi.service.component,org.wso2.carbon
+ .identity.application.mgt,org.wso2.carbon.idp.mgt",org.wso2.carbon.iden
+ tity.custom.application.mgt.extended.internal.service.impl;version="1.0
+ .0";uses:="org.wso2.carbon.identity.application.common,org.wso2.carbon.
+ identity.custom.application.mgt.extended.model,org.wso2.carbon.identity
+ .custom.application.mgt.extended.services",org.wso2.carbon.identity.cus
+ tom.application.mgt.extended.model;version="1.0.0";uses:="javax.xml.bin
+ d.annotation",org.wso2.carbon.identity.custom.application.mgt.extended.
+ services;version="1.0.0";uses:="org.wso2.carbon.identity.application.co
+ mmon,org.wso2.carbon.identity.custom.application.mgt.extended.model"
+Import-Package: javax.xml.bind.annotation,org.osgi.framework;version="[1
+ .7.0,2.0.0)",org.osgi.service.component;version="[1.2.0,2.0.0)",org.apa
+ che.commons.lang;version="[2.6.0,3.0.0)",org.apache.commons.logging;ver
+ sion="[1.2,2.0)",org.wso2.carbon.context;version="[4.4.0,5.0.0)",org.ws
+ o2.carbon.identity.application.common;version="[5.7.0,6.0.0)",org.wso2.
+ carbon.identity.application.common.model;version="[5.7.0,6.0.0)",org.ws
+ o2.carbon.identity.application.mgt;version="[5.7.0,6.0.0)",org.wso2.car
+ bon.idp.mgt;version="[5.7.0,6.0.0)",org.wso2.carbon.core;version="[4.4.
+ 0,5.0.0)"
+Service-Component: OSGI-INF/org.wso2.carbon.identity.custom.application.
+ mgt.extended.internal.ExtendedApplicationManagementServiceComponent.xml
+Tool: Bnd-2.1.0.20130426-122213

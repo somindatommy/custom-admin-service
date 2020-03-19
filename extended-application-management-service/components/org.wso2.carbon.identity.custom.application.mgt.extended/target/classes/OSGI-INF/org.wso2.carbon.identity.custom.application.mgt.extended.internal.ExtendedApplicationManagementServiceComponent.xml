@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" immediate="true" name="identity.extended.application.management.component" activate="activate" deactivate="deactivate">
+    <reference name="applicationManagementService.service" interface="org.wso2.carbon.identity.application.mgt.ApplicationManagementService" cardinality="1..1" policy="dynamic" bind="setApplicationManagementService" unbind="unsetApplicationManagementService"/>
+    <reference name="idpManager.service" interface="org.wso2.carbon.idp.mgt.IdpManager" cardinality="1..1" policy="dynamic" bind="setIdpManagerService" unbind="unsetIdpManagerService"/>
+    <implementation class="org.wso2.carbon.identity.custom.application.mgt.extended.internal.ExtendedApplicationManagementServiceComponent"/>
+</scr:component>

@@ -1,0 +1,9 @@
+org/wso2/carbon/identity/custom/application/mgt/extended/ExtendedApplicationManagementAdminService.class
+org/wso2/carbon/identity/custom/application/mgt/extended/ApplicationManagementConstants$ErrorMessages.class
+org/wso2/carbon/identity/custom/application/mgt/extended/ApplicationManagementConstants.class
+org/wso2/carbon/identity/custom/application/mgt/extended/ApplicationManagementConstants$SuccessScenario.class
+org/wso2/carbon/identity/custom/application/mgt/extended/services/ExtendedApplicationManagementService.class
+org/wso2/carbon/identity/custom/application/mgt/extended/internal/service/impl/DefaultExtendedApplicationManagementServiceImpl.class
+org/wso2/carbon/identity/custom/application/mgt/extended/internal/ExtendedApplicationManagementServiceDataHolder.class
+org/wso2/carbon/identity/custom/application/mgt/extended/internal/ExtendedApplicationManagementServiceComponent.class
+org/wso2/carbon/identity/custom/application/mgt/extended/model/SuccessResponse.class
