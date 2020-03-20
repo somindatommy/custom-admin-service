@@ -29,15 +29,15 @@
         </parameter>
         <operation name="addIdentityProviderToApplication">
             <parameter name="AuthorizationAction" locked="true">
-                /permission/admin/manage/identity/applicationmgt/update
+                /permission/admin/manage/identity/customapplicationmgt/authstepmgt/addidp
             </parameter>
         </operation>
         <operation name="removeIdentityProviderFromApplication">
             <parameter name="AuthorizationAction" locked="true">
-                /permission/admin/manage/identity/applicationmgt/update
+                /permission/admin/manage/identity/customapplicationmgt/authstepmgt/removeidp
             </parameter>
         </operation>
-        <parameter name="AuthorizationAction" locked="false">/permission/admin/manage/identity/applicationmgt/</parameter>
+        <parameter name="AuthorizationAction" locked="false">/permission/admin/manage/identity/customapplicationmgt/authstepmgt/</parameter>
         <parameter name="adminService" locked="true">true</parameter>
     </service>
 
